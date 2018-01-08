@@ -56,8 +56,3 @@ div {
 .div6 {
     background-color: mediumvioletred;
 }
-
-.centered-text {
-    display: table-cell;
-    vertical-align: middle;
-}
