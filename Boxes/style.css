@@ -1,0 +1,63 @@
+html, body {
+    height: 95%;
+    padding: 5px;
+}
+
+div {
+    border: solid black 2px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.row{
+    overflow: auto;
+    height: 40%;
+}
+
+.footer {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+    height: 20%;
+}
+
+.cell{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+}
+
+.div1 {
+    background-color: dimgray;
+}
+
+.div2 {
+    background-color: aquamarine;
+}
+
+.div3 {
+    background-color: chocolate;
+}
+
+.div4 {
+    background-color: palevioletred;
+}
+
+.div5 {
+    background-color: yellowgreen;
+}
+
+.div6 {
+    background-color: mediumvioletred;
+}
+
+.centered-text {
+    display: table-cell;
+    vertical-align: middle;
+}
